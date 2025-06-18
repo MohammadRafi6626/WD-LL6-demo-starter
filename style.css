@@ -1,7 +1,25 @@
+/* 
+  High-contrast, minimal, modern color combinations:
+
+  1. Black on white:        #000 (text) on #fff (background)
+  2. Dark gray on white:    #222 (text) on #fff (background)
+  3. Navy on white:         #1a2238 (text) on #fff (background)
+  4. White on dark gray:    #fff (text) on #222 (background)
+  5. Charcoal on light gray:#333 (text) on #f5f5f5 (background)
+  6. Blue on very light gray:#2563eb (text) on #f9fafb (background)
+*/
+
+/* Example: To use navy on white, you could do: */
+/*
 body {
-  background-color: #eaeaea;
-  font-family: "Times New Roman", Times, serif;
-  color: #999;
+  background-color: #fff;
+  color: #1a2238;
+}
+*/
+
+body {
+  background-color: white; /* white background */
+  color: #222;            /* dark gray text */
   padding: 0;
   top: 0 !important;
 }
